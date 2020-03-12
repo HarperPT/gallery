@@ -1,0 +1,26 @@
+.newsCard {
+    border: 3px solid transparent;
+    height: 600px;
+}
+
+.newsCard img {
+    height: 100%;
+    /* object-fit: contain; */
+}
+
+@media (min-width: 700px) {
+    .newsCard img {
+        height: 300px;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 700px) {
+    .newsCard {
+        height: 500px;
+    }
+    .newsCard img {
+        height: 200px;
+    }
+}

@@ -4,8 +4,9 @@ import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
+import './assets/css/style.css'
+import './assets/css/Linearicons.css'
 import './assets/css/grid.css'
-import './assets/css/card.css'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

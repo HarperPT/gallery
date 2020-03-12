@@ -31,6 +31,28 @@ class App extends React.Component {
                     Kostyál. Curated by Katharine 
                     Kostyál`
                 },
+            ],
+            artists: [
+                { name: "Franz Ackermann", link: "" },
+                { name: "Etel Adnan ", link: "" },
+                { name: "Darren Almond", link: "" },
+                { name: "Ellen Altfest", link: "" },
+                { name: "Michael Armitage ", link: "" },
+                { name: "Miroslaw Balka ", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
+                { name: "John Doe", link: "" },
             ]
 
         }
@@ -38,7 +60,7 @@ class App extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Home Cards={this.state.galleryCards}></Home>
+                <Home Cards={this.state.galleryCards} Artists={this.state.artists}></Home>
             </React.Fragment>
         );
     }
