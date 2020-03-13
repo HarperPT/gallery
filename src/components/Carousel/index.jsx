@@ -44,7 +44,6 @@ class Carousel extends React.Component {
     render() {
         return (
             < React.Fragment >
-                {this.state.index}
                 <div className="carousel">
                     <button className="carousel_button btnLeft" onClick={() => this.handleLeft()}>
                         <span className="lnr lnr-chevron-left"></span>
