@@ -25,10 +25,15 @@ li>img {
 }
 
 .carousel_slide {
+    display: none;
     position: absolute;
     top: 0;
     bottom: 0;
     width: 100%;
+}
+
+.carousel_slide.active {
+    display: block;
 }
 
 /* carousel button */
@@ -74,8 +79,8 @@ li>img {
     padding: 10px 0;
     position: absolute;
     bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 100%);
+    right: 0%;
+    transform: translate(0%, 100%);
 }
 
 .carousel_indicator {
