@@ -8,6 +8,10 @@
     /* object-fit: contain; */
 }
 
+.newsCard>* {
+    box-sizing: border-box;
+}
+
 @media (min-width: 700px) {
     .newsCard img {
         height: 300px;

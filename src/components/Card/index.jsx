@@ -9,9 +9,8 @@ class Card extends React.Component {
         return (
             < React.Fragment >
                 <div className="col-4 newsCard">
-                    {/* <img src={require("../../assets/img/gallery01.jpg")} className="h-50 card-img-top img-fluid" alt="..." /> */}
                     <img src={require("../../assets/img/" + gallery.imgSrc)} className="h-50 card-img-top img-fluid" alt="..." />
-                    <h1>{gallery.title}</h1>
+                    <h1 className="link-title">{gallery.title}</h1>
                     <h2>{gallery.date}</h2>
                     <p>{gallery.detail}</p>
                 </div>

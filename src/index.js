@@ -8,6 +8,9 @@ import './assets/css/style.css'
 import './assets/css/Linearicons.css'
 import './assets/css/grid.css'
 
+import './assets/fonts/DINPro-Bold.otf'
+import './assets/fonts/DINPro-Regular.otf'
+
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

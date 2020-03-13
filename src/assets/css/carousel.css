@@ -1,3 +1,5 @@
+/* main carousel */
+
 .carousel {
     position: relative;
     height: 600px;
@@ -28,6 +30,8 @@ li>img {
     bottom: 0;
     width: 100%;
 }
+
+/* carousel button */
 
 .carousel_button {
     position: absolute;
@@ -60,6 +64,8 @@ li>img {
 .btnRight {
     right: -40px;
 }
+
+/* carousel bottom icon */
 
 .carousel_nav {
     background: transparent;
