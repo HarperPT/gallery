@@ -37,7 +37,7 @@ class Home extends React.Component {
                         <section id="section-channel" className="wrapper">
                             <div>
                                 <h3>Channel<span className="link-more" style={{ float: "right" }}>View all</span></h3>
-                                {/* <Video videoId="vlm5tgistqA"></Video> */}
+                                <Video videoId="vlm5tgistqA"></Video>
                                 <h3>Anselm Kiefer</h3>
                                 <h4>In conversation with Tim Marlow In the Auditorium</h4>
                                 <h4>In this film Anselm Kiefer discusses his work and his exhibition ‘Walhalla’ at White Cube Bermondsey with Tim Marlow.</h4>
