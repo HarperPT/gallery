@@ -37,6 +37,10 @@ hr {
     left: 2.5%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* section-title */
 
 #section-title {

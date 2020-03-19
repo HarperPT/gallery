@@ -73,7 +73,7 @@ class Home extends React.Component {
                                 <article>
                                     <p>EC1 GALLERY</p>
                                     <p> 4344 Clerkenwell Road
-                                     London
+                                    London
                                     EC1 5RS</p>
                                     <p>Tel +44 (0) 207 123 4567</p>
                                 </article>

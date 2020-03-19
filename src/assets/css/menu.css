@@ -11,17 +11,15 @@
 
 .nav li {
   float: left;
-}
-
-.nav li a {
   display: block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.nav li a:hover {
+.nav li:hover {
   background-color: rgba(17, 17, 17, 0.075);
 }
 
@@ -73,8 +71,11 @@ input[type=checkbox]:checked~.content {
 /*Responsive Styles*/
 
 @media screen and (max-width: 700px) {
-  .menu-item {
+  li.menu-item {
     display: none;
+  }
+  .menu-item:first-child {
+    display: block;
   }
   #btn-drop-menu {
     display: block;
